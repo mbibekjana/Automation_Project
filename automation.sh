@@ -38,5 +38,5 @@ then
 fi
 if [[ ! -f /etc/cron.d/Automation ]];
 then
-    sudo echo " 0 0 */1 * * root /root/Automation_Project/automation.sh" >> /etc/cron.d/Automation
+    sudo echo " 0 0 * * * root /root/Automation_Project/automation.sh" >> /etc/cron.d/Automation
 fi
