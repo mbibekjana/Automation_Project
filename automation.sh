@@ -29,7 +29,7 @@ apacheroot="/var/www/html"
 
 if [ ! -f ${apacheroot}/inventory.html ];
 then
-    echo -e 'Log Type\t-\tDate Created\t-\tType\t-\tSize' >${apacheroot}/inventory.html
+    echo -e 'Log Type\t-\tTime Created\t-\tType\t-\tSize' >${apacheroot}/inventory.html
 fi
 if [[ -f ${apacheroot}/inventory.html ]];
 then
